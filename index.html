@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | WebGL touch lag check</title>
+    <title>Unity Web Player | WebGL touch lag check</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <link rel="manifest" href="manifest.webmanifest">
   </head>
   <body>
     <div id="unity-container">
-      <canvas id="unity-canvas" width=1920 height=1080 tabindex="-1"></canvas>
+      <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -57,11 +57,12 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/WebglTouchLag.loader.js";
+      var loaderUrl = buildUrl + "/5a2f53b564211d166e11ba5791b96bd0.loader.js";
       var config = {
-        dataUrl: buildUrl + "/476604f516d7af381d4e9ef0c777be79.data",
-        frameworkUrl: buildUrl + "/58673cfdb35c8215ab9995c5e8902c5a.js",
-        codeUrl: buildUrl + "/066559e42fcef088aa2543bb79fa2bba.wasm",
+        arguments: [],
+        dataUrl: buildUrl + "/f6384aeca08059274bf26d6537e94edb.data",
+        frameworkUrl: buildUrl + "/3fc3224a6145b3d99edc6ca9464ff500.framework.js",
+        codeUrl: buildUrl + "/e6eabc29885349ce22596c0e513f4cf0.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "WebGL touch lag check",
